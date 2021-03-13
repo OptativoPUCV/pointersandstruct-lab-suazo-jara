@@ -12,7 +12,8 @@ y en c almacena el valor de la suma de a más b.
 */
 
 void suma(int a, int b, int * c) {
-   
+  *c = a + b;
+  return;
 }
 
 /*
@@ -37,7 +38,7 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-
+  *suma = (sumaN(a, n)) - (sumaN(a, n - m));
 }
 
 /*
@@ -72,6 +73,10 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
+   //Vector vectorCreado;
+   //vectorCreado.capacidad = n;
+   //vectorCreado.datos = (int *) calloc(n, sizeof(int));
+   //return vectorCreado;
    return NULL;
 }
 
