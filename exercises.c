@@ -83,7 +83,7 @@ Vector * crearVector(int n) {
    vectorCreado->capacidad = n;
    vectorCreado->datos = (int *) calloc(vectorCreado->capacidad, sizeof(int));
    return vectorCreado;
-   return NULL;
+   //return NULL;
 }
 
 /*
