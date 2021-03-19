@@ -62,7 +62,6 @@ Persona* crearPersona(char nombre[], char rut[], int edad) {
    strcpy(sujeto->rut, rut);
    sujeto->edad = edad;
    return sujeto;
-   //return NULL;
 }
 
 /*
@@ -83,7 +82,6 @@ Vector * crearVector(int n) {
    vectorCreado->capacidad = n;
    vectorCreado->datos = (int *) calloc(vectorCreado->capacidad, sizeof(int));
    return vectorCreado;
-   //return NULL;
 }
 
 /*
